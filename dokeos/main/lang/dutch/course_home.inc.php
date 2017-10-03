@@ -1,0 +1,51 @@
+<?php /*
+for more information: see languages.txt in the lang folder. 
+*/
+$langActivate = "Zichtbaar maken";
+$langDeactivate = "Verbergen";
+$langInLnk  = "Deze modules en links zijn nu inactief.";
+$langDelLk = "Wilt u deze link verwijderen?";
+$langCourseCreate  = "Cursus creëren";
+$langNameOfTheLink  = "Naam van de link";
+$lang_main_categories_list                  = "Lijst \"Algemene categorieën\"";
+$langCourseAdminOnly = "Voorbehouden voor de cursusbeheerders";
+$PlatformAdminOnly = "Voorbehouden voor de platformbeheerders";
+$langCombinedCourse = "Gecombineerd:";
+$ToolIsNowVisible = "De module is nu zichtbaar.";
+$ToolIsNowHidden = "De module is nu onzichtbaar.";
+$EditLink = "Link wijzigen";
+$Blog_management = "Projecten";
+$Forum = "Forums";
+$Course_maintenance = "Cursusbeheer";
+$TOOL_SURVEY = "Enquêtes";
+$GreyIcons = "Modules";
+$Interaction = "Interactie";
+$Authoring = "Opstellen";
+$Administration = "Administratie";
+$IntroductionTextUpdated = "De introductietekst is gewijzigd";
+$IntroductionTextDeleted = "Introductietekst verwijderd";
+$SessionIdentifier = "Sessie herkenningsteken";
+$SessionName = "Sessienaam";
+$SessionCategory = "Sessiecategorie";
+$SessionData = "Sessiedata";
+$ActivityOne = "Activiteit 1";
+$ActivityTwo = "Activiteit 2";
+$ActivityThree = "Activiteit 3";
+$ActivityFour = "Activiteit 4";
+$ActivityFive = "Activiteit 5";
+$ChapterOne = "Hoofdstuk 1";
+$ChapterTwo = "Hoofdstuk 2";
+$ChapterThree = "Hoofdstuk 3";
+$ChapterFour = "Hoofdstuk 4";
+$ChapterFive = "Hoofdstuk 5";
+$InteractionOne = "Interactie 1";
+$InteractionTwo = "Interactie 2";
+$InteractionThree = "Interactie 3";
+$InteractionFour = "Interactie 4";
+$InteractionFive = "Interactie 5";
+$WeekOne = "Week 1";
+$WeekTwo = "Week 2";
+$WeekThree = "Week 3";
+$WeekFour = "Week 4";
+$WeekFive = "Week 5";
+?>

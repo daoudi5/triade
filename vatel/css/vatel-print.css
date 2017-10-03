@@ -1,0 +1,5 @@
+*{font-family:sans-serif;}
+#topHead,#topNav,#header_shadow,.vat-carousel-diapo img,#modalcontact,#brochuremodal,#page-title,#vat-totop,.vat-footer,.owl-item,.btn{display:none;}
+#wrapper{padding-top:10px;}
+.container .row .col-md-4{display:none;}
+.vat-meddium-img-left{width: 20%;height: auto;}

@@ -1,0 +1,733 @@
+/**** COMON ****/
+a,a:hover{transition: all 0.4s ease-in-out;}
+
+.imgclick {
+	cursor:crosshair;
+}
+
+#color3 {
+	color:red;
+}
+
+#coulBar0 {
+	
+	
+}
+
+
+.dhtmlgoodies_contentBox{
+	border:1px solid #000000;
+	height:0px;
+	visibility:hidden;
+	position:absolute;
+	background-color:#CCCCCC;
+	overflow:hidden;
+	padding:2px;
+
+}
+
+.dhtmlgoodies_content{
+	position:relative;		
+	font-family: Electrolize; font-size: 12px;
+	width:100%;
+	font-size:0.8em;
+		
+}
+
+
+
+
+#target {
+  position: obsolute;
+  z-index:10;
+  border: 1px solid #000;
+  margin-top : 0px;
+  float : right;
+  visibility:hidden;
+  overflow:hidden;
+  font-family: Electrolize;font-size:11px;color:#CC0000;background-color:#FCE4BA;font-weight:bold;
+ 
+}
+#target0 {
+  position: obsolute;
+  z-index:10;
+  border: 1px solid #000;
+  margin-top : 0px;
+  float : right;
+  visibility:hidden;
+  overflow:hidden;
+  font-family: Electrolize;font-size:12px;color:#CC0000;background-color:#FCE4BA;font-weight:bold;
+ 
+}
+#target1 {
+  position: obsolute;
+  z-index:10;
+  border: 1px solid #000;
+  margin-top : 0px;
+  float : right;
+  visibility:hidden;
+  overflow:hidden;
+  font-family: Electrolize;font-size:11px;color:#CC0000;background-color:#FCE4BA;font-weight:bold;
+ 
+}
+#target2 {
+  position: obsolute;
+  z-index:10;
+  border: 1px solid #000;
+  margin-top : 0px;
+  float : right;
+  visibility:hidden;
+  overflow:hidden;
+  font-family: Electrolize;font-size:11px;color:#CC0000;background-color:#FCE4BA;font-weight:bold;
+ 
+}
+#target4 {
+  position: obsolute;
+  z-index:10;
+  border: 1px solid #000;
+  margin-top : 0px;
+  float : right;
+  visibility:hidden;
+  overflow:hidden;
+  font-family: Electrolize;font-size:11px;color:#CC0000;background-color:#FCE4BA;font-weight:bold;
+ 
+}
+
+#target span {
+	display:block;
+}
+
+
+.white {
+	font-family: 'Open Sans',Arial,sans-serif;
+	color: #FFFFFF;
+	font-style: bold;
+}
+
+@font-face {
+  font-family: 'Electrolize';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Electrolize'), local('Electrolize-Regular'), url(./css-google.woff) format('woff');
+}
+
+.text {  font-family: Electrolize;font-size:18px; color:#000000 }
+.shadow { text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+
+.T2  {
+	font-family: 'Open Sans',Arial,sans-serif;
+	font-size:18px;
+	color: #7e8998;
+}
+
+.T22  {
+	font-family: 'Open Sans',Arial,sans-serif;
+	font-size:12px;
+	color: #FFFFFF;
+	font-weight: bold;	
+}
+
+
+.T3  {
+	font-family: 'Open Sans',Arial,sans-serif;
+	font-size:20px;
+	color: #7e8998;
+}
+
+.T4  {
+	font-family: 'Open Sans',Arial,sans-serif;
+	font-size:22px;
+	color: #7e8998;
+}
+
+
+.colorText {
+	font-family: 'Open Sans',Arial,sans-serif;
+	color: #2b85bb;
+}
+
+.dateInput {
+	border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    box-shadow: none;
+    background-color: #fff;
+    background-image: none;
+    color: #555;
+    font-size: 14px;
+    height: 40px;
+    padding: 12px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+h1{font-family: 'Open Sans',Arial,sans-serif; font-weight: 800; color: #2b85bb; font-size: 38px;}
+h1.vat-dark-grey{color: #2b85bb;}
+h1 span{font-weight: 200; color: #cccccc;}
+h2{font-family: 'Open Sans',Arial,sans-serif; font-weight: 800; color: #2b85bb; font-size: 30px;}
+h2.vat-red{color:#CB211B; font-weight:bold;}
+h2 span{font-weight: 200; color: #cccccc;}
+.vat-thin-h{font-weight: 300; margin-bottom:20px;}
+#blog h2{font-weight: 200;}
+.vat-p-light{font-weight: normal; line-height: 14px;}
+.vat-clear{clear: both;}
+.vat-mr-left-10{margin-left: 10px;}
+.vat-mr-top-20{margin-top: 20px;}
+.vat-mr-top-5{margin-top: 5px;}
+.vat-mr-right-20{margin-right: 20px;}
+.vat-mr-right-5{margin-right: 5px;}
+.vat-mr-left-20{margin-left: 20px;}
+.vat-mr-bottom-20{margin-bottom: 20px;}
+.vat-mr-bottom-5{margin-bottom: 5px;}
+.vat-mr-bottom-0{margin-bottom: 0px;}
+header#page-title.var-mr-no-bottom{margin-bottom: 0px; border-bottom: 1px solid #FFF;}
+.vat-font-white{color: #FFF;}
+.vat-grey{color: #bebebe; font-weight: normal;}
+.vat-font-blue{color: #2b85bb;}
+.file-input{background: #2b85bb; color: #FFF;}
+.vat-nopadding{padding-top: 0px; padding-bottom: 0px;}
+.vat-tissu-bg{background: url('../images/vat-bacground-master.gif') repeat top left;}
+.vat-brradius-6{-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+.vat-brradius-4{-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
+.vat-inner-top-sha{-webkit-box-shadow: inset 0px 15px 9px -5px rgba(0, 0, 0, 0.75); -moz-box-shadow:    inset 0px 15px 9px -5px rgba(0, 0, 0, 0.75); box-shadow: inset 0px 15px 9px -5px rgba(0, 0, 0, 0.75);}
+.vat-mini-linker{display:block; width: 15px; height: 15px; background: url('../images/vat-little-linker.png') no-repeat center center;}
+.vat-capitalize{text-transform: uppercase;}
+.vat-meddium-img-left{width: 30%; height: auto; float: left; margin-right: 20px; margin-bottom: 20px;}
+.vat-img-responsive{padding: 3px; background: #FFF; border: 1px solid #ECECEC; width: 100%; height: auto; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+#vat-logo-404{width: 295px; height: 156px; margin: 0 auto 20px auto;}
+.labelindex{ position: absolute; right: 20px; bottom: 10px; font-size: 10px; color: #8dc7df; font-style: italic; }
+a.styleColor span{
+	font-weight: normal;
+	font-size: 11px;
+}
+
+#wrapperCarto{
+    padding:118px 0 0 0; 	/* top nav height */
+    z-index:98;			/* under top nav */
+    position:relative;
+    background-color:rgba(244,245,247,0.9); /* if background image used */
+    overflow:hidden;
+    min-height:550px;
+}
+
+.vat-grey-grad{
+    background: #333333;
+    background: -moz-linear-gradient(top, #333333 0%, #4d4d4d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333333), color-stop(100%,#4d4d4d));
+    background: -webkit-linear-gradient(top, #333333 0%,#4d4d4d 100%);
+    background: -o-linear-gradient(top, #333333 0%,#4d4d4d 100%);
+    background: -ms-linear-gradient(top, #333333 0%,#4d4d4d 100%);
+    background: linear-gradient(to bottom, #333333 0%,#4d4d4d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#4d4d4d',GradientType=0 );
+}
+.vat-blue-gard{
+    background: #104763;
+    background: -moz-linear-gradient(top, #104763 0%, #2b85bb 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#104763), color-stop(100%,#2b85bb));
+    background: -webkit-linear-gradient(top, #104763 0%,#2b85bb 100%);
+    background: -o-linear-gradient(top, #104763 0%,#2b85bb 100%);
+    background: -ms-linear-gradient(top, #104763 0%,#2b85bb 100%);
+    background: linear-gradient(to bottom, #104763 0%,#2b85bb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#104763', endColorstr='#2b85bb',GradientType=0 );
+}
+.vat-bg-white{background: #FFF;}
+.vat-bg-white-logo{background: #FFF url("../images/vat-back-logo-2.png") no-repeat 80% 100%;}
+.vat-unversal-conteneur{padding: 10px; background-color: #FFF;}
+/**** SPEC ****/
+.vat-baseline{color: #dcdcdc; padding-top: 10px; font-size: 12px;}
+header#topHead.vat-top-head{background: url('../images/vat-bacground-master.gif') repeat top left;border-bottom:1px dashed #67b2e7;}
+header#topNav.vat-nav-master{background: url('../images/vat-bacground-master.gif') repeat top left; -webkit-box-shadow: inset 0px 15px 9px -5px rgba(0, 0, 0, 0.75); -moz-box-shadow:    inset 0px 15px 9px -5px rgba(0, 0, 0, 0.75); box-shadow: inset 0px 15px 9px -5px rgba(0, 0, 0, 0.75);}
+.vat-logo{position: absolute; top: 10px; left: 0; width: 151px; height:80px;}
+.vat-lead{font-size: 20px; color: #000; letter-spacing:normal;}
+.vat-lead span{color: #2b85bb; font-size: 18px;}
+header#topNav nav ul.nav-main li.dropdown > a.active,header#topNav nav ul.nav-main ul.dropdown-menu li > a.active{color: #6bb2dd;}
+
+/**** BLOC 4 CAMPUS ****/
+.vat-view-campus { width: 100%; height: 130px; overflow: hidden; position: relative; text-align: center; cursor: default; }
+.vat-view-campus .vat-backg-image-campus{ width: 100%; position: absolute; left: 0px; margin-top: -30%; }
+.vat-view-campus .vat-backg-image-campus-height{ width: 100%; position: absolute; left: 0px;}
+.vat-view-campus .vat-mask, .vat-view-campus .vat-content-campus { width: 100%; height: 130px; position: absolute; overflow: hidden; top: 0; left: 0; }
+.vat-view-campus a.vat-info { background:url('../images/vat-arrow-content.png') center no-repeat; display: inline-block; text-decoration: none; padding:0; text-indent:-9999px; width:37px; height:37px; }
+.vat-effect-campus .vat-mask { opacity: 0; overflow:visible; border:100px solid rgba(0,0,0,0.7); box-sizing:border-box;}
+.vat-effect-campus a.vat-info { position:relative; top:20%; opacity: 0; transition: opacity 0.5s 0s ease-in-out; }
+.vat-effect-campus:hover .vat-mask { opacity: 1; border:100px solid rgba(0,0,0,0.7); }
+.vat-effect-campus:hover a.vat-info { opacity:1; transition-delay: 0.3s; }
+.vat-view-campus .vat-campus-info{ display:block; position: absolute; bottom: 0px; width: 100%; height: 37px; text-align: center; font-family: 'Open Sans',Arial,sans-serif; font-weight: 200; text-decoration: none; padding-top: 5px; color: #2b85bb; font-size: 26px; background: #FFF; }
+.vat-effect-campus:hover > .vat-campus-info{ background: #2b85bb; color: #FFF; transition: all 0.4s ease-in-out; }
+/**** /BLOC 4 CAMPUS ****/
+
+/**** BLOC 4 ICONES ****/
+.vat-bg-arrow-sgrey{ background: url('../images/vat-bg-arrow-soft-grey.png') no-repeat bottom center; }
+.vat-jum-click{ width: 600px; background: #c12e2a; margin: 0 auto; }
+.vat-jum-click a,.vat-jum-click button{ display: block; float: left; position: relative; width: 150px; text-align: center; font-family: 'Open Sans',Arial,sans-serif; font-weight: 200; color: #FFF; font-size: 15px; background: #c12e2a; height: 70px; margin: 20px 0; }
+.vat-jum-click a span,.vat-jum-click button span{ position: absolute; width: 100%; bottom: 0px; text-align: center; left: 0px; }
+.vat-jum-click button.vat-search{ background: url("../images/vat-icon-search.png") no-repeat center top; }
+.vat-jum-click a.vat-brochure{ background: url("../images/vat-ico-borchure.png") no-repeat center top; }
+.vat-jum-click a.vat-contact{ background: url("../images/vat-ico-contact.png") no-repeat center 15%; }
+.vat-jum-click a.vat-press{ background: url("../images/vat-ico-presse.png") no-repeat center top; }
+.vat-sep-right{ border-right: 1px dashed #FFF; }
+/**** /BLOC 4 ICONES ****/
+
+/**** BLOC REUSSITE DE VATELIENS ****/
+.vat-reussite{ background: #FFF; padding: 20px;  text-decoration: none;}
+.vat-reussite h1{ color: #2b85bb; font-size: 30px; font-weight: 800; border-bottom: 1px solid #e6e6e6; margin-bottom: 20px; }
+.vat-reussite h1 span{ color: #000; }
+.vat-reussite div .vat-visu{ position: relative; display: block; width: 175px; height: auto; overflow: hidden; }
+.vat-reussite div .vat-visu .vat-mask-reussite{height: 120px; overflow: hidden;}
+.vat-reussite div .vat-visu img{ width: 100%; margin-top: -10%; }
+.vat-reussite div .vat-visu p{ display: block; width: 100%; max-height: 110px; background: #f2f2f2; margin-bottom: 0px; font-weight: 300; font-size: 12px; color: #000; padding: 7px; line-height: 16px; }
+.vat-reussite div .vat-visu p span{ color: #2b85bb; font-weight: 200; text-transform: uppercase; }
+.vat-reussite div .vat-visu:hover p{background: #464646; color: #FFF; transition: all 0.4s ease-in-out;}
+.vat-carousel{ margin-bottom: 0px; }
+.vat-carousel.owl-theme .owl-controls .owl-buttons .owl-prev,.vat-carousel.owl-theme .owl-controls .owl-buttons .owl-next{ position: absolute; background: #2b85bb; color: #FFF; padding: 6px 15px; border: none; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+.vat-carousel.owl-theme .owl-controls .owl-buttons .owl-prev:hover,.vat-carousel.owl-theme .owl-controls .owl-buttons .owl-next:hover{ background: #1a5d86; }
+.owl-prev{ right: 0; top: -5px; }
+.owl-next{ right: 0; top: 35px; }
+/**** /BLOC REUSSITE DE VATELIENS ****/
+
+/**** ACTU CAMPUS ****/
+.vat-actu-home{ display: block; height: 350px; position: relative; background: #FFF; overflow: hidden; }
+.vat-actu-home.vat-actu-home-corr{height: auto;}
+.vat-actu-home.vat-heighter-auto{height: auto;}
+.vat-actu-home:hover{ background: #2b85bb; text-decoration: none; }
+.vat-actu-home:hover .vat-inner p{ text-decoration: none; color: #FFF; }
+.vat-actu-home:hover .vat-inner h3{ text-decoration: none; color: #FFF; }
+.vat-actu-home:hover .vat-inner span{ text-decoration: none; color: #FFF; }
+.vat-actu-home .vat-img{ width:100%; height: 135px; overflow: hidden; }
+.vat-actu-home .vat-img img{ width:100%; margin-top: -30px;}
+.vat-actu-home .vat-fl{ position: absolute; top: 0; left: 0; width:100%; height: 135px; background: url("../images/vat-arrow-content-2.png") no-repeat bottom center; z-index: 2; }
+.vat-inner{ padding: 10px; }
+.vat-inner p.title{ color: #2b85bb; line-height: 16px; font-size: 14px; }
+.vat-inner p{ font-size: 11px; line-height: 14px; }
+.vat-inner p span{ color: #2b85bb; }
+/**** /ACTU CAMPUS ****/
+
+/**** ACTU GROUPE ****/
+.vat-actu-hor{ display: block; width:100%; height: 100px; position: relative; background: #FFF; overflow: hidden; margin-top:20px;}
+.vat-actu-hor:hover .vat-inner a{ text-decoration: none; color: #000; transition: all 0.4s ease-in-out;}
+.vat-actu-hor .vat-img{position:relative; width: 140px; height: 100%; overflow: hidden;}
+.vat-actu-hor .vat-img img{width: 100%;}
+.vat-actu-hor .vat-img .vat-mask{position: absolute; width:34px; height:120%; right: 0; top: 0; background: url("../images/vat-news-hori-1.png") no-repeat 70% 70%;}
+.vat-actu-hor .vat-img,.vat-actu-hor .vat-inner{float: left;}
+.vat-actu-hor .vat-inner{width: 70%; line-height: 16px; font-size: 15px;}
+.vat-actu-hor .vat-inner a.title{font-size: 13px; color: #000; letter-spacing: -0.5px; font-weight: 500; margin-bottom:0px; padding-top:10px;}
+.vat-actu-hor .vat-caler-hori-news{position: absolute; right: 10px; top: 40%;}
+.vat-actu-hor .vat-caler-hori-news:hover{right: 8px;}
+/**** ACTU GROUPE ****/
+
+/**** ACTU CAMPUS HORI ****/
+.vat-actu-hor-campus{ display: block; width:100%; height: 80px; position: relative; background: #FFF; overflow: hidden; margin-bottom:20px;}
+.vat-actu-hor-campus:hover .vat-inner p{ text-decoration: none; color: #000; transition: all 0.4s ease-in-out;}
+.vat-actu-hor-campus .vat-img{position:relative; width: 100px; height: 100%; overflow: hidden; background:#2b85bb;}
+.vat-actu-hor-campus .vat-img img{height:100%;}
+.vat-actu-hor-campus .vat-img .vat-mask{position: absolute; width:34px; height:120%; right: 0; top: 0; background: url("../images/vat-news-hori-1.png") no-repeat 80% 60%;}
+.vat-actu-hor-campus .vat-img,.vat-actu-hor .vat-inner{float: left;}
+.vat-actu-hor-campus .vat-inner{width: 90%;}
+.vat-actu-hor-campus .vat-inner p.title{font-size: 12px; color: #000; letter-spacing: -0.5px; font-weight: 500; margin-bottom:0px; padding-left:10px;}
+.vat-actu-hor-campus .vat-caler-hori-news{position: absolute; right: 10px; top: 40%;}
+.vat-actu-hor-campus .vat-caler-hori-news:hover{right: 8px;}
+/**** ACTU GROUPE ****/
+
+/******* FOOTER ********/
+footer .footer-content.vat-footer{ background:#3d3d3d url('../images/vat-back-footer.png') repeat-x top left; border-top: none; line-height: 12px; }
+footer .footer-content .container .row .vat-left{ background:url("../images/vat-back-left-footer.png") no-repeat 100% 40%; padding-right: 40px; min-height: 200px; }
+footer .footer-content .container .row .vat-right{ background:url("../images/vat-back-right-footer.png") no-repeat 0% -20px; padding-left: 40px; min-height: 200px; }
+.vat-footer hr{ border-top:1px dashed #67b2e7; border-right: none; border-bottom: none; border-left: none; margin: 10px 0; }
+.btn-default.vat-btn-type-1{ background: #FFF !important; border: none; color: #2b85bb; }
+.btn-default.vat-btn-type-1:hover{ color: #000; }
+.vat-logo-resto-footer,.vat-logo-hotel-footer{ width: 34px; height: 43px; display: block; float: right; }
+.vat-logo-hotel-footer{ background: url("../images/vat-icon-hotel-vatel.png") no-repeat top center; margin-right: 5px; }
+.vat-logo-resto-footer{ background: url("../images/vat-icon-resto-vatel.png") no-repeat top center; }
+span.vat-title-footer{ font-family: 'Open Sans',Arial,sans-serif; color: #2b85bb; font-size: 18px; font-weight: 200; margin-bottom: 5px; display: block;}
+footer .footer-content .vat-simple-linker{ font-size: 11px; color: #999999; }
+footer .footer-content .vat-simple-linker:hover{ font-size: 11px; color: #2b85bb; text-decoration: none; }
+.vat-center-foot p{ margin-top: 7px; line-height: 12px; font-size: 11px; }
+.vat-social-link{ width: 30px; height: 29px; display: block; float: left; margin-right: 5px; }
+.vat-social-link.facebook{ background: url("../images/vat-ico-facebook.png") no-repeat center center; }
+.vat-social-link.linkedin{ background: url("../images/vat-ico-linkedin.png") no-repeat center center; }
+.vat-social-link.youtube{ background: url("../images/vat-ico-youtube.png") no-repeat center center; }
+.vat-social-link.twitter{ background: url("../images/vat-ico-twitter.png") no-repeat center center; }
+.vat-social-link.ggplus{ background: url("../images/vat-ico-google.png") no-repeat center center; }
+/******* /FOOTER ********/
+
+/******* NAV TABS + FOCUS ********/
+.vat-bg-tabs{ overflow: hidden; margin-bottom: 20px; }
+.vat-bg-tabs .nav-tabs{ height: 32px; overflow: hidden; }
+.vat-bg-tabs .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{ padding: 6px 10px; background-color: transparent; border-right: 2px ridge #333333; border-radius: 0px; border-top: none; border-left: none; border-bottom: none; color: #FFF; font-weight: bold; }
+.vat-bg-tabs .nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus{ padding: 6px 10px; background-color: transparent; border-right: 2px ridge #333333; border-radius: 0px; border-top: none; border-left: none; border-bottom: none; color: #ECECEC; font-weight: normal; }
+.vat-bg-tabs .nav > li > a:hover, .nav > li > a:focus{ color: #2b85bb; }
+.vat-bg-tabs .nav-tabs{ background: #FFF url("../images/vat-background-col.gif") repeat-x top left; }
+.vat-bg-focus{ background:#FFF url("../images/vat-background-focus.png") no-repeat center right; }
+.vat-focus{ padding: 10px;}
+.vat-focus .vat-focus-img{width: 70px; height: 70px; overflow:hidden; border: 2px solid #2b85bb; float: left; margin-right: 10px; }
+.vat-focus .vat-focus-img img{width: auto; height: 100%;}
+.vat-focus p {margin-bottom: 0px; line-height: 18px;}
+/*.vat-focus a{ display: block; font-size: 12px; color: #67b2e7; line-height: 13px; }*/
+/*.vat-focus a span{ font-size: 13px; color: #000; font-weight: bold; text-transform: uppercase; letter-spacing: -1px; }*/
+
+/******* NAV TABS + FOCUS ********/
+
+/******* BTN COLONNE DROITE ********/
+.vat-formation-finder{ padding: 10px; position: relative; margin-bottom: 20px; }
+.vat-formation-finder p span{ font-size: 14px; color: #FFF; font-weight: bold; text-transform: uppercase; letter-spacing: -1px; }
+.vat-formation-finder p{ width: 80%; font-size: 13px; color: #67b2e7; margin-bottom: 0px; line-height: 14px;}
+.vat-formation-finder a{ display: block; position: absolute; z-index: 2; right: 10px; top: 10px; width: 45px; height: 45px; background: url("../images/vat-white-clicker.png") no-repeat center center; }
+
+.vat-btn-degree{ padding-top: 10px; font-family: 'Open Sans Condensed',Arial,sans-serif; font-weight: 300; font-size: 26px; color: #67b2e7; border: 0px; line-height: 18px;}
+.vat-btn-degree span{ color: #FFF; font-size: 20px; }
+
+.vat-btn-carto{ display: block; width: 100%; height: 70px; padding: 10px 0 0 7px; color: #000; font-weight: bolder; border: 1px solid #2b85bb; letter-spacing: -1px; line-height: 16px; background: #2b85bb url("../images/vat-back-carto.jpg") no-repeat right center; margin-bottom: 20px;}
+.vat-btn-carto span{ color: #FFF; text-shadow: 1px 1px 0 #000000; }
+.vat-btn-carto:hover{ text-decoration: none; }
+
+.vat-btn-triade{ width: 100%; height: 54px; overflow: hidden; position: relative; margin-bottom: 20px;}
+.vat-btn-triade .vat-btn-triade-left,.vat-btn-triade .vat-btn-triade-right{ float: left; display: block; height: 54px; }
+.vat-btn-triade .vat-btn-triade-left{ width: 40%; font-family: 'Open Sans Condensed',Arial,sans-serif; font-weight: 300; font-size: 26px; color: #FFF; padding: 15px 0 0 15px; }
+.vat-btn-triade .vat-btn-triade-left:hover{ text-decoration: none; color: #2b85bb; }
+.vat-btn-triade .vat-btn-triade-right{ width: 60%; font-family: 'Open Sans Condensed',Arial,sans-serif; font-weight: 300; color: #FFF; background: #2b85bb; font-size: 18px; line-height: 18px; padding: 7px 0 0 10px; }
+.vat-btn-triade .vat-gr{ position: absolute; z-index: 2; left: calc(40% - 29px); top: 0px; background: url("../images/vat-back-triade-1.png") no-repeat left center; background-size: 100% 100%; height: 54px; width: 29px; }
+/******* / BTN COLONNE DROITE ********/
+
+/******* BLOC JPO COL DROITE *******/
+.vat-jpo a.vatsalonCol{ display: block; width: 90%; color: #292f38; padding-bottom: 10px; border-bottom: 1px dashed #bfbfbf; margin: 10px auto; line-height: 14px; background: url('../images/vat-little-linker.png') no-repeat center right; }
+.vat-jpo a.vatsalonCol span{ color: #67b2e7; font-weight: bolder; font-size: 14px; letter-spacing: -1; text-transform: uppercase; }
+.vat-jpo a.vatsalonCol span.badge{color: #FFF;}
+.vat-jpo a.vatsalonCol:last-child{ border-bottom: 0px; }
+.vat-jpo a{display: block; width: 90%; margin: 10px auto;}
+/******* /BLOC JPO COL DROITE *******/
+
+/******* DIVERS / CORRECTFIS *******/
+.btn-file { position: relative; overflow: hidden; }
+.btn-file input[type=file] { position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; background: red; cursor: inherit; display: block; }
+input[readonly] { background-color: white !important; cursor: text !important; }
+
+header#topNav button.vat-btn-nav{background: #2b85bb; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; font-size: 20px; font-weight: 300; padding: 5px;}
+.vat-img-corrector{width: 40%; overflow: hidden;}
+.vat-img-corrector img{width: 100%; height: auto;}
+.vat-img-corrector-min{width: 20%; overflow: hidden;}
+.vat-img-corrector-min img{width: 100%; height: auto;}
+.vat-title-para{font-size: 18px;}
+.vat-nav-right-li-a li a{background: #4d4d4d; margin-bottom: 5px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; color: #FFF; padding: 5px 10px;}
+.vat-nav-right-li-a li a:hover{color: #2b85bb;}
+.vat-nav-right-li-a li a.active{background: #2b85bb;}
+.vat-address-col{padding: 10px; background: #FFF;}
+.vat-div-prt img{margin-left:auto; margin-right:auto;}
+.vat-bg-tabs-simple{background-color: #FFF; margin-bottom: 20px}
+#vat-frise{width: 100%; height: 80px; background: url('../images/vat-student-frise.jpg') repeat-x top left;}
+.vat-height-search{height: 40px;}
+.vat-blog-img{height: 170px; overflow:hidden;}
+.vat-blog-img img{margin-top: -25%;}
+#vat-iframe-mask{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    bottom: 87px;
+    z-index: 2;
+    background:transparent url("../images/vat-mask-iframe.png") repeat-x bottom right;
+}
+#vat-totop{width: 150px; height: 30px; margin:0 auto; text-align: center;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+padding-top: 4px;}
+#vat-totop a{
+    color:#FFF;
+	text-decoration: none;
+}
+#vat-totop a:hover{
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
+.item p{margin-bottom:10px;}
+.vat-item-box-desc-actu-home{height: 210px;}
+.vat-item-box-desc-actu-home span {font-size: 1em; font-weight: 400; letter-spacing: normal; line-height: 18px; margin: 0px 0px 14px;}
+.vat-item-box1{height: 320px; overflow: hidden;}
+.vat-item-box1 figure {height:190px; overflow:hidden;}
+.vat-item-box1 figure img{width:100%; margin-top:-20px;}
+.vat-small-vat{line-height: 13px; margin-bottom: 7px;}
+.owl-carousel .owl-item div a .vat-fl{position: absolute;}
+.owl-carousel .owl-item div a.vat-actu-home{height: 320px;}
+.vat-carousel-actu-campus .owl-controls .owl-buttons .owl-prev,.vat-carousel-actu-campus .owl-controls .owl-buttons .owl-next{position: relative; top: -25px;}
+.vat-carousel-actu-campus .owl-controls .owl-buttons .owl-prev{float: left; margin-left:0px;}
+.vat-carousel-actu-campus .owl-controls .owl-buttons .owl-next{float: right; margin-right:15px;}
+.vat-extend-select{height: 46px;}
+.vat-btn-footer{padding:3px 16px;}
+.vat-blog-img{width:20%; border-radius: 6px; overflow: hidden;}
+.vat-blog-mr-pull-left{margin-right: 15px;}
+.vat-blog-mr-pull-right{margin-left: 15px;}
+/******* DIVERS / CORRECTFIS *******/
+
+.item-box.vat-actu-col{height: 120px;overflow: hidden;}
+.vat-actu-col figure {width: 120px; height: 120px; overflow: hidden; float: left;}
+.vat-actu-col figure img{height: 100%; width: auto;}
+.vat-actu-col h5{margin-bottom:0px;}
+.vat-actu-col {margin-bottom: 20px; line-height: 15px;}
+
+.item-box.vat-focus-col{height: 120px; overflow: hidden; }
+.vat-focus-col .focusImg {width: 120px; height: 120px; overflow: hidden; float: left;}
+.vat-focus-col .focusImg img{height: 100%; width: auto;}
+.vat-focus-col h5{margin-bottom:0px;}
+.vat-focus-col {margin-bottom: 20px; line-height: 15px;}
+.item-box.vat-focus-col p{line-height: 15px;}
+
+/******* TROUVER VOTRE FORMATION *******/
+.vat-etapes{ width: 100%; height: 40px; margin: 15px 0 60px 0; background: url("../images/vat-back-dot-grey.gif") repeat-x center center; }
+.vat-etapes .vat-step{ text-align: center; float: left; width: 33.3333333%; height: auto; }
+.vat-etapes .vat-step .vat-number , .vat-etapes .vat-step .vat-number-active{ margin: 0 auto; width: 40px; height: 40px; line-height: 38px; border-radius: 20px; font-size: 19px; font-weight: bold; background: #FFF; }
+.vat-etapes .vat-step .vat-number-active{ background: #2b85bb; color: #FFF; }
+.vat-etapes .vat-step .vat-p-active{ font-weight: bold; }
+
+.vat-campus-form{ width: 100%; height: 140px; margin-bottom: 20px; background: #FFF url("../images/vat-back-soft-grey-min.png") repeat-x top left; clear: both; padding: 20px; overflow: hidden; }
+.vat-campus-form .vat-img{ width: 10%; height:50px; overflow: hidden; float: left; margin-right: 20px; }
+.vat-campus-form .vat-img img{ height: 100%; }
+.vat-campus-form .vat-content{ width: 100%; }
+.vat-campus-form .vat-content p{ line-height: 14px; color: #000000; font-size: 12px; }
+.vat-campus-form .vat-content p.vat-lang{ font-weight: bold; }
+.vat-campus-form .vat-content p span{ font-family: "Open Sans Condensed",Arial,sans-serif; color: #2b85bb; font-weight: 300; font-size:26px; }
+.vat-img-article{ padding: 5px; border: 1px solid #ECECEC; overflow: hidden; }
+/******* /TROUVER VOTRE FORMATION *******/
+
+/******* JPO PAGE CAMPUS *******/
+.vat-jpo-page{ background: #FFF; width: 100%; height: auto; padding: 20px; margin-bottom:32px;}
+.vat-jpo-page h2{ font-size: 16px; margin-bottom: 0px; }
+.vat-date{ display: block; width: 95px; border: 1px solid #bfe3ee; margin-right: 20px; display: inline-block; }
+.vat-date .vat-date-top{ text-align: center; width: 100%; font-size: 39px; font-weight: bold; color: #4d4d4d; padding-top:20px; padding-bottom: 20px;}
+.vat-date-bottom{ background: #2b85bb; text-align: center; padding-top: 5px; padding-bottom: 5px; color: #FFF; }
+.vat-date:hover{ text-decoration: none; }
+/******* /JPO PAGE CAMPUS *******/
+
+.vat-event-france{
+    background: #FFF; width: 100%; height: auto; padding: 20px;
+    margin-bottom: 32px;
+}
+#vat-carte-monde{height: 700px;}
+figure.vat-img-with-100{height:150px; overflow:hidden;}
+figure.vat-img-with-100-fluid{height:auto; overflow:hidden;}
+figure.vat-img-with-100 img,figure.vat-img-with-100-fluid{width:100%;}
+.vat-event-france h2{ font-size: 16px; margin-bottom: 0px; }
+#vat-canvas-france{width:100%; height:auto; background:url('../images/ajax-loader-carto.gif') no-repeat center center;}
+#vat-canvas-france{width: 100%; height: auto;}
+.vat-border-top{border-top: 1px solid #2b85bb;}
+
+
+.vat-show-salon{
+    background: #FFF url("../images/vat-back-logo-2.png") no-repeat 80% 100%; width: 100%; height: auto; padding: 20px;
+    margin-bottom: 20px;
+}
+.vat-show-salon h2{
+    margin-bottom: 0px;
+}
+.vat-info-contact{width:100px;}
+.vat-border-bottom{border-bottom: 1px solid #d5d5d5;}
+.media:last-child{border-bottom: none;}
+.vat-access-gal{display:block; width: 100%; min-height: 30px; text-align: center; color: #FFF; margin-top:20px; line-height: 13px; padding:7px 0;}
+.vat-access-gal:hover{text-decoration: none; color: #8e9ba1;}
+
+.vat-contact-btn{ display: block; background: #0073b2; font-size: 12px; line-height: 16px; text-align: center; color: #FFF; padding: 4px 10px; }
+.vat-contact-btn:hover{ text-decoration: none; background: #2199da;}
+.vat-contact-btn span{ border-top: 1px dotted #FFF; }
+
+.vat-carousel-diapo{
+    overflow: hidden;
+}
+.modal-dialog{
+    margin: 70px auto;
+}
+.vat-inner h3{
+    margin-bottom: 10px;
+    color: #2b85bb;
+}
+.vat-inner span span{
+    color: #000;
+}
+
+.vat-enter-campus-revo{
+    padding: 30px;
+    -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;
+    background: #FFF;
+    text-align: center;
+    color: #2b85bb;
+    font-size: 42px;
+    font-family: 'Open Sans',Arial,sans-serif; font-weight: 300;
+}
+.vat-enter-accroche-revo{
+    padding: 10px;
+    -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;
+    color: #FFF;
+    line-height: 30px;
+    font-size: 28px;
+    font-family: 'Open Sans',Arial,sans-serif; font-weight: 300;
+}
+.alpha60 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.vat-capitalize-title{
+    font-size: 2.2em;
+    font-weight: 300;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #2D2F3C;
+    letter-spacing: -1px;
+    font-family: "Open Sans", Arial,sans-serif;
+    display: block;
+}
+.vat-title-colonne{
+    font-family: "Open Sans Condensed",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: #2B85BB;
+    margin-bottom: 10px;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+
+.vat-title-colonne span{
+    color: #000;
+}
+
+/******* FOCUS CAMPUS *******/
+.campusFocus{padding: 15px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background: #FFF; margin-bottom: 30px;}
+.campusFocus .vat-title-colonne{text-transform: uppercase; margin-bottom: 10px; display: block;}
+.campusFocus p{margin-bottom: 0;}
+.campusFocus p.subtitle{color: #000; font-weight: 100; text-transform: uppercase; font-size: 16px;}
+.campusFocus .campusFocusImg{width: 100px; height: auto; overflow: hidden; float: left; margin: 0 15px 10px 0;}
+.campusFocus .campusFocusImg .campusFocusImgInner{max-width:100%; max-height:100%; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background: #2B85BB; border: 0;}
+
+
+/******* INTERLO CAMPUS *******/
+.vat-interlocuteur{ width: 100%; height: auto; background: #FFF; padding: 20px; margin-bottom: 22px; }
+.vat-unversal-conteneur .vat-interlocuteur{background-color: #e8e8e8;}
+.vat-interlocuteur .vat-interlocuteur-photo, .vat-interlocuteur .vat-interlocuteur-info{ display: inline-block; vertical-align: top; width: 62%;}
+.vat-interlocuteur .vat-interlocuteur-photo{ width: 27%; height: 27%; overflow: hidden; margin-right: 20px; } .vat-interlocuteur .vat-interlocuteur-photo img{ height: auto; width: 100%; }
+.vat-interlocuteur .vat-interlocuteur-info p{ color: #000; margin-bottom: 10px; line-height: 16px; }
+.vat-interlocuteur .vat-interlocuteur-info p span{ color: #2b85bb; }
+.vat-interlocuteur .vat-interlocuteur-info a{ display: block; background: #0073b2; font-size: 12px; line-height: 16px; text-align: center; color: #FFF; padding: 4px 0; }
+.vat-interlocuteur .vat-interlocuteur-info a:hover{ text-decoration: none; background: #2199da;}
+.vat-interlocuteur .vat-interlocuteur-info a span{ border-top: 1px dotted #FFF; }
+/******* /INTERLO CAMPUS *******/
+
+/******* PROGRAMMES D'ECHANGE *******/
+.vat-echange-inter{margin-top: 10px; margin-bottom: 20px;}
+.vat-echange-inter .alizarin { background: #2199da; }
+.vat-echange-inter .dl { background: #f0f0f0; border-radius: 6px; position: relative; overflow: hidden;}
+.vat-echange-inter .dl:before { content: " "; height: 20px; width: 20px; background: #ddd; border-radius: 6px; position: absolute; left: 50%; top: 20px; margin-left: -10px; }
+.vat-echange-inter .dl .brand { text-transform: uppercase; letter-spacing: 3px; padding: 10px 15px; margin-top: 10px; text-align: center; min-height: 50px; }
+.vat-echange-inter .dl .brand p.mini{ text-transform: uppercase; letter-spacing: 3px; font-size:12px; }
+.vat-echange-inter .dl .discount { min-height: 50px; position: relative; font-size: 30px; text-align: center; font-weight: bold; padding: 20px 15px 20px; color: #FFF; }
+.vat-echange-inter.vat-vae-corr .dl .discount { min-height: 50px; position: relative; font-size: 19px; text-align: left; font-weight: lighter; padding: 20px 15px 20px; color: #FFF; }
+.vat-echange-inter.vat-vae-corr .dl .discount span{font-size:13px; line-height: 13px;}
+.vat-echange-inter .dl .discount.mini{font-size: 18px; line-height: 16px; background: #2b85bb;}
+.vat-echange-inter .dl .discount:after {content: " "; border-right: 20px solid transparent; border-left: 20px solid transparent; position: absolute; bottom: -20px; left: 20%; }
+.vat-echange-inter .dl .discount.alizarin:after { border-top: 20px solid #2199da; }
+.vat-echange-inter .dl .discount.greydin:after { border-top: 20px solid #4d4d4d; }
+.vat-echange-inter .dl .discount.mini.alizarin:after { border-top: 20px solid #2b85bb; }
+.vat-echange-inter .dl .discount .type { font-size: 20px; letter-spacing: 1px; text-transform: uppercase; margin-top: -30px; }
+.vat-echange-inter .dl .descr { color: #FFF; line-height: 18px; padding: 30px 15px 20px 15px; font-weight: normal;}
+.vat-echange-inter.vat-vae-corr .dl .descr {font-weight: normal; color: #FFF; line-height: 18px; padding: 30px 15px 20px 15px; }
+.vat-echange-inter .dl .ends { padding: 0 15px; color: #f1c40f; margin-bottom: 10px; }
+.vat-echange-inter .dl .coupon { min-height: 50px; text-align: center; text-transform: uppercase; font-weight: bold; font-size: 18px; padding: 20px 15px; }
+.vat-echange-inter .dl .coupon a.open-code { color: #16a085; }
+.vat-echange-inter .dl .coupon .code { letter-spacing: 1px; border-radius: 4px; margin-top: 10px; padding: 10px 15px; color: #f1c40f; background: #f0f0f0; }
+/******* /PROGRAMMES D'ECHANGE *******/
+
+
+
+.vat-dossier-presse{ width: 100%; height: auto; background: #FFF; padding: 20px; margin-bottom: 22px; margin-bottom:20px;}
+.vat-dossier-presse .vat-dossier-presse-photo, .vat-dossier-presse .vat-dossier-presse-info{ display: inline-block; vertical-align: top; }
+.vat-dossier-presse .vat-dossier-presse-photo{ width: 100px; height: 100px; overflow: hidden; margin-right: 20px; } .vat-dossier-presse .vat-dossier-presse-photo img{ height: 100%; width: auto; }
+.vat-dossier-presse .vat-dossier-presse-info{width: 80%;}
+.vat-dossier-presse .vat-dossier-presse-info p{color: #000; margin-bottom: 10px; line-height: 16px; }
+.vat-dossier-presse .vat-dossier-presse-info p span{ color: #2b85bb; }
+.vat-dossier-presse .vat-dossier-presse-info a.cliquer{background: #0073b2; font-size: 12px; line-height: 16px; text-align: center; color: #FFF; padding: 4px 10px; }
+.vat-dossier-presse .vat-dossier-presse-info a.cliquer:hover{ text-decoration: none; background: #2199da;}
+.vat-dossier-presse .vat-dossier-presse-info a span{ border-top: 1px dotted #FFF; }
+.vat-dossier-presse .vat-dossier-presse-info.vat-no-href a{background:none; color: #2b85bb; padding: 0px; font-size: 14px; text-decoration:underline;}
+.vat-dossier-presse .vat-dossier-presse-info.vat-no-href a:hover{text-decoration:none;}
+    
+.phone {display:none}
+.nophone {display:block}
+.nophone2 {display:inline}
+
+@media only screen and (max-width : 768px) {
+    .vat-logo{left:10px;}
+    header#topNav button.vat-btn-nav{margin-right: -7px;}
+    .vat-actu-home,.vat-view-campus{margin-bottom: 20px;}
+    #wrapper{padding-bottom: 10px;}
+    .vat-btn-triade .vat-btn-triade-right{font-size: 16px;}
+    footer .footer-content.vat-footer{text-align: center;}
+    footer .footer-content .container .row .vat-left{padding-right: 10px;}
+    .vat-logo-resto-footer, .vat-logo-hotel-footer{margin-top: 15px;}
+    .vat-logo-resto-footer{margin-right: 10px;}
+    footer .footer-content .container .row .vat-right{padding-left: 10px;}
+    .vat-padding-xs{padding: 20px 30px;}
+    .vat-address-col{margin-bottom: 20px;}
+    .vat-echange-inter .dl{margin-bottom: 20px;}
+    .vat-item-box-desc-actu-home {
+        height:auto;
+    }
+    figure.vat-img-with-100 {
+        height: auto;
+        overflow: hidden;
+    }
+    .phone {display:block}
+    .nophone {display:none}
+    .nophone2 {display:none}
+}
+
+
+@media screen and (min-width:200px) and (max-width:768px){
+    .fullwidthresponsiv{
+        width: 100%;
+    }
+}
+@media screen and (min-width:980px) and (max-width:1199px){
+    header#topNav nav ul.nav-main li a {font-size: 1.0em;}
+    .nav > li > a {padding: 10px 5px;}
+}
+
+.espace { height:10px; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.menu { top:0px; }
+	.espace { height:50px; } 
+}
+
+.TESTcpYearNavigation,
+.TESTcpMonthNavigation { background-color:#B2CADE;text-align:center;vertical-align:center;text-decoration:none;color:#000000;font-weight:bold; }
+.TESTcpDayColumnHeader,
+.TESTcpYearNavigation,
+.TESTcpMonthNavigation,
+.TESTcpCurrentMonthDate,
+.TESTcpCurrentMonthDateDisabled,
+.TESTcpOtherMonthDate,
+.TESTcpOtherMonthDateDisabled,
+.TESTcpCurrentDate,
+.TESTcpCurrentDateDisabled,
+.TESTcpTodayText,
+.TESTcpTodayTextDisabled,
+.TESTcpText {font-family:Electrolize;font-size:8pt;}
+TD.TESTcpDayColumnHeader {text-align:right;border:solid thin #000000;border-width:0 0 1 0;}
+.TESTcpCurrentMonthDate,
+.TESTcpOtherMonthDate,
+.TESTcpCurrentDate {text-align:right;text-decoration:none;}
+.TESTcpCurrentMonthDateDisabled,
+.TESTcpOtherMonthDateDisabled,
+.TESTcpCurrentDateDisabled { color:#D0D0D0;text-align:right;text-decoration:line-through;}
+.TESTcpCurrentMonthDate{color:#506E87;font-weight:bold;}
+.TESTcpCurrentDate {color: #FFFFFF;font-weight:bold;}
+.TESTcpOtherMonthDate{color:#808080;}
+TD.TESTcpCurrentDate {color:#FFFFFF;background-color: #666666;border-width:1;border:solid thin #000000;}
+TD.TESTcpCurrentDateDisabled{border-width:1;border:solid thin #FFAAAA;}
+TD.TESTcpTodayText,
+TD.TESTcpTodayTextDisabled {border:solid thin #000000;border-width:1 0 0 0;}
+A.TESTcpTodayText,
+SPAN.TESTcpTodayTextDisabled {height:20px;}
+A.TESTcpTodayText{color:#506E87;font-weight:bold;}
+SPAN.TESTcpTodayTextDisabled{color:#D0D0D0;}
+.TESTcpBorder{border:solid thin #000000;border-width:1}

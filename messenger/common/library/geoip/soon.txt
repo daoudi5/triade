@@ -1,0 +1,4 @@
+GeoIP.dat will be soon move from :
+/common/geoip/ 
+to :
+/common/library/geoip/

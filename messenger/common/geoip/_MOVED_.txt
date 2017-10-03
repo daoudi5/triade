@@ -1,0 +1,14 @@
+(version 2.0.2)
+
+GeoIP has moved from :
+/common/geoip/ 
+to :
+/common/library/geoip/
+
+
+
+
+[FR] GeoIP a été déplacé depuis :
+/common/geoip/ 
+vers :
+/common/library/geoip/
